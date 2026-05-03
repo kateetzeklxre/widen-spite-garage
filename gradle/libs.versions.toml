@@ -1,0 +1,7 @@
+[versions]
+decent = "3.1.2"
+psychological = "3.2.2"
+
+[libraries]
+decent = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "decent" }
+psychological = { module = "io.ktor:ktor-server-call-logging", version.ref = "psychological" }
